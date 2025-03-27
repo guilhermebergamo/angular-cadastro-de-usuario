@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { ListarComponent } from './listar/listar.component';
 
+// rotas
 const routes: Routes = [
   { path: 'cadastrar', component: CadastrarComponent },
   { path: 'listar', component: ListarComponent },
